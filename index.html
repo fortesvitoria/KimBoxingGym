@@ -49,10 +49,41 @@
                             <a class="nav-link" href="horarios.html">Horários</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Fale conosco</a>
+                            <a class="nav-link" href="" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Fale
+                                conosco</a>
                         </li>
                     </ul>
+                </div>
+                <div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <!-- formulario -->
 
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlInput1" class="form-label text-bg-dark">Seu e-mail</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                                            placeholder="nome@email.com.br">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlTextarea1" class="form-label text-bg-dark">Deixe sua mensagem</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1"
+                                            rows="3"></textarea>
+                                    </div>
+
+                                    <!-- formulario -->
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                    <button type="button" class="btn btn-danger">Enviar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>
