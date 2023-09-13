@@ -1,0 +1,94 @@
+/* CSS COM ESTILOS BASE */
+
+/* Variáveis */
+:root {
+    /* Importa fontes */
+    --fonte-primaria: 'Exo', sans-serif;
+    --fonte-secundaria: 'Pontano Sans', sans-serif;
+
+    --amarelo: #F5D061;
+    --amarelo-hover: #F29727;
+    --vermelho: #C51605;
+    --vermelho-hover: #9e1104;
+    --fundo: #212529;
+}
+
+/* GERAL */
+
+body {
+    font-family: var(--fonte-primaria);
+}
+
+h2 {
+    font-family: var(--fonte-secundaria) !important;
+    font-weight: 800;
+    font-size: 4rem;
+}
+
+h3{
+    font-weight: 800;
+}
+
+
+P {
+    font-weight: 500;
+    font-family: var(--fonte-secundaria) !important;
+}
+
+.btn {
+    border-radius: 10rem!important;
+    font-weight: 700!important;
+}
+
+.secao {
+    margin: 1rem !important;
+    padding: 2rem !important;
+}
+
+@media (min-width: 1200px) {
+    .secao {
+        margin: 5rem !important;
+    }
+}
+
+.texto-destaque {
+    color: var(--vermelho);
+}
+
+.card {
+        border-radius: 2rem 0 2rem 0!important;
+}
+
+.card img{
+    border-radius: 2rem 0 2rem 0!important;
+}
+
+.card:hover {
+    border-color: var(--vermelho-hover)!important;
+}
+
+
+/* MAIN */
+/* secao um */
+.secao-um {
+    border-radius: 5rem 0 5rem 0;
+}
+
+@media (min-width: 1200px) {
+   .secao-um P {
+        font-size: 1.2rem;
+    }
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 5rem 0 5rem 0
+}
+
+/* secao dois */
+.secao-dois .logo {
+   margin-bottom: 2rem;
+}
+
+/* FOOTER */
