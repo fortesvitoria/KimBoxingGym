@@ -125,3 +125,18 @@ iframe {
     font-weight: 300;
 }
 
+/* CSS PAGINA HORARIOS */
+
+.formulario {
+    margin: 1rem !important;
+}
+
+@media (min-width: 1200px) {
+    .formulario {
+        margin: 5rem !important;
+    }
+}
+
+.img-form {
+    border-radius: 5rem 0 5rem 0
+}
