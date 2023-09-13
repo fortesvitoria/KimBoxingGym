@@ -35,6 +35,12 @@ P {
     font-family: var(--fonte-secundaria) !important;
 }
 
+a {
+    font-weight: 500;
+    text-decoration: none!important;
+    color:#FFFFFF!important;
+}
+
 .btn {
     border-radius: 10rem!important;
     font-weight: 700!important;
@@ -91,4 +97,31 @@ iframe {
    margin-bottom: 2rem;
 }
 
+/* secao quatro */
+.secao-quatro img {
+    border-radius: 2rem 0 2rem 0!important;
+}
+
 /* FOOTER */
+.footer {
+    padding: 2rem 1rem 2rem 1rem;
+}
+
+.p-footer{
+    font-family: var(--fonte-primaria)!important;
+}
+
+.footer h6 {
+    text-transform: uppercase;
+}
+
+.footer a {
+    margin-bottom: 1rem!important;
+}
+
+.copyright {
+    font-size: 14px!important;
+    font-family: var(--fonte-primaria)!important;
+    font-weight: 300;
+}
+
