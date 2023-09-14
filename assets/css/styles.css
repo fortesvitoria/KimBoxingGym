@@ -16,7 +16,7 @@
 /* GERAL */
 
 body {
-    font-family: var(--fonte-primaria);
+    font-family: var(--fonte-primaria)!important;
 }
 
 h2 {
