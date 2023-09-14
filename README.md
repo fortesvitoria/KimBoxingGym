@@ -9,3 +9,5 @@ https://kim-boxing-gym.vercel.app/
 
 
 GitPages:
+
+https://fortesvitoria.github.io/KimBoxingGym/
