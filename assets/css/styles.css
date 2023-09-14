@@ -21,8 +21,8 @@ body {
 
 h2 {
     font-family: var(--fonte-secundaria) !important;
-    font-weight: 800;
-    font-size: 4rem;
+    font-weight: 800!important;
+    font-size: 4rem!important;
 }
 
 h3{
