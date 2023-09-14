@@ -3,7 +3,9 @@ Página HTML com CSS usando BootStrap.
 
 ----
 
-VERCEl:
+VERCEL:
+
+https://kim-boxing-gym.vercel.app/
 
 
 GitPages:
