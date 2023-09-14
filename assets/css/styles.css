@@ -80,8 +80,10 @@ a {
     border-radius: 5rem 0 5rem 0;
 }
 
+
+
 @media (min-width: 1200px) {
-   .secao-um P {
+   .secao-um p {
         font-size: 1.2rem;
     }
 }
